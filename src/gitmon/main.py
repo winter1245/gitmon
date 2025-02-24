@@ -33,7 +33,7 @@ def check():
                 url=list[0]
                 prevcommits=list[1][:-1]
                 newcommits=commits(url)
-                diff= int(prevcommits)-int(newcommits)
+                diff= int(newcommits)-int(prevcommits)
                 print(f'{diff} new commits on {url}')
                 
                 if diff==0:
