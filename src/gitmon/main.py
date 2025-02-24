@@ -40,7 +40,7 @@ def check():
                     newdata.append(line)
                     continue
                 
-                newdata.append(f'{url} {diff}\n')
+                newdata.append(f'{url} {newcommits}\n')
 
            
 
