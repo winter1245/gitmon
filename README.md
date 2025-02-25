@@ -1,4 +1,4 @@
-# snowflake
+# gitmon
 A tool for monitoring github commits
 
 ## Installation
